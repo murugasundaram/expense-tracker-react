@@ -1,2 +1,2 @@
 # expense-tracker-react
-Learning React Js 
+This is a learning Application using React Js to track the Expenses
