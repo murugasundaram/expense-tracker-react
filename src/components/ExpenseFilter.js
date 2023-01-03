@@ -2,7 +2,7 @@ import '../css/ExpenseStyle.css';
 
 const ExpenseFilter = (props) => {
 
-    const yearArray = [2022, 2021, 2020, 2019, 2018];
+    const yearArray = ['All', '2023', '2022', '2021', '2020', '2019', '2018'];
 
     const changeSelectHandler = (event) => {
         props.onChangeFilter(event.target.value)
